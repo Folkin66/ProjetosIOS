@@ -11,6 +11,7 @@
 }
 
 html{
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
@@ -23,13 +24,14 @@ body{
 }
 
 header{
-    margin-top: 20px;
+
     position: fixed;
     top: 0;
     left: 0;
+    height: 18%;
     width: 100%;
     padding: 1rem 9%;
-    background-color: transparent;
+    background-color: black;
     filter: drop-shadow(10px);
     display: flex;
     justify-content: space-between;
@@ -151,7 +153,23 @@ span{
 }
 
 #sec > p {
-    font-size: 50px;
+    font-size: 20px;
+}
+
+#experiencia {
+    font-size: 30px;
+}
+
+#formacao {
+    font-size: 30px;
+}
+
+#habilidades {
+    font-size: 30px;
+}
+
+#contatos {
+    font-size: 20px;
 }
 
 .social-icons a{
@@ -181,10 +199,27 @@ span{
 }
 
 .proj {
-    margin: 200px 0px 0px 0px;
+    margin: 45px 0px 0px 0px;
     display: flex;
     font-size: 30px;
     justify-content: center;
+}
+
+.file {
+    width: 250px;
+}
+
+.caixa1 {
+    margin-top: 39px;
+    border: solid 2px rebeccapurple;
+    border-radius: 8px;
+    box-shadow: 3px 4px 4px rebeccapurple;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
 }
 
 .btn{
